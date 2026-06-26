@@ -38,6 +38,7 @@ list_matches() {
     | rg -i -- "$re" \
     | rg -iv -- "$PROTECT_RE" \
     | rg -v -- "audit-processes.sh" \
+    | rg -v -- "rg -i --" \
     | awk -v self="$SELF_PGID" '$3 != self'
 }
 

@@ -109,6 +109,11 @@ safe orphan because normal active apps on macOS use those helpers. Crashpad file
 cleanup and crash reporter settings live behind `--optimize`, where you can
 review the exact targets first.
 
+Thanks to [ImL1s/devclean](https://github.com/ImL1s/devclean) for the excellent
+shape of this part of the tool: safe cleanup by default, explicit deep cleanup,
+optimize mode, and disk mode. Agent Broom keeps that spirit and adds the agent
+memory hook plus process ledger.
+
 ## Artifact Cleanup
 
 `agent-broom artifacts` reports rebuildable repo artifacts:

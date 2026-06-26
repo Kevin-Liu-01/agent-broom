@@ -8,6 +8,10 @@
   A skill that makes agents remember to run a cleanup script.
 </p>
 
+<p align="center">
+  <img src="./assets/agent-broom-terminal.png" alt="Agent Broom cleaning up localhost dev servers in a terminal" width="860">
+</p>
+
 Agent Broom is for the boring mess that coding agents leave behind: localhost
 servers, test watchers, orphaned MCP processes, browser automation, build
 artifacts, and dev caches.
